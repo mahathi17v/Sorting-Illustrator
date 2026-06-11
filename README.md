@@ -2,6 +2,10 @@
 
 A web-based sorting algorithm visualizer built using HTML, CSS, JavaScript, and Bootstrap. The project helps users understand how popular sorting algorithms work through animated bar visualizations.
 
+### Main Interface
+
+![Main Interface](img/main_interface.png)
+
 ## Features
 
 - Random array generation
@@ -42,12 +46,8 @@ Input:
 Click **Load Custom Array** to visualize and sort your own data.
 
 ## Screenshots
-## Screenshots
 
-### Main Interface
-
-![Main Interface](img/main_interface.png)
-
+<img src="img/bubble_sort.png" width="600">
 ### Custom Array Input
 
 ![Custom Array Input](img/custom_array.png)
