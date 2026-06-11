@@ -47,30 +47,29 @@ Click **Load Custom Array** to visualize and sort your own data.
 
 ## Screenshots
 
-<img src="img/bubble_sort.png" width="600">
 ### Custom Array Input
 
 ![Custom Array Input](img/custom_array.png)
 
 ### Bubble Sort
 
-![Bubble Sort](img/bubble_sort.png)
+<img src="img/bubble_sort.png" width="800">
 
 ### Selection Sort
 
-![Selection Sort](img/selection_sort.png)
+<img src="img/selection_sort.png" width="800">
 
 ### Insertion Sort
 
-![Insertion Sort](img/insertion_sort.png)
+<img src="img/insertion_sort.png" width="800">
 
 ### Quick Sort
 
-![Quick Sort](img/quick_sort.png)
+<img src="img/quick_sort.png" width="800">
 
 ### Merge Sort
 
-![Merge Sort](img/merge_sort.png)
+<img src="img/merge_sort.png" width="800">
 
 ## Future Enhancements
 
