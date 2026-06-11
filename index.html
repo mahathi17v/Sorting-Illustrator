@@ -1,0 +1,134 @@
+<!-- small buttons -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SORTING ILLUSTRATOR</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="p-3 mb-2 text-white">
+
+<header>
+
+    <h1 align="center"
+        style="text-decoration: underline; color: rgb(13, 202, 240);">
+        <strong>SORTING ILLUSTRATOR</strong>
+    </h1>
+
+    <nav>
+
+        <div class="row">
+
+            <!-- Left Section -->
+            <div class="col gap-2 d-sm-flex flex-column" id="newArray">
+
+                <button
+                    type="button"
+                    class="btn btn-outline-danger btn-light newArray">
+                    Random Array
+                </button>
+
+                <input
+                    type="text"
+                    id="customArray"
+                    class="form-control"
+                    placeholder="50,20,90,10,40">
+
+                <button
+                    type="button"
+                    id="loadArray"
+                    class="btn btn-outline-info">
+                    Load Custom Array
+                </button>
+
+            </div>
+
+            <!-- Middle Section -->
+            <div class="col" id="input">
+
+                <span id="size">
+                    Size
+                    <input
+                        id="arr_sz"
+                        type="range"
+                        min="5"
+                        max="100"
+                        step="1"
+                        value="60">
+                </span>
+
+                <span id="speed">
+                    Speed
+                    <input
+                        id="speed_input"
+                        type="range"
+                        min="20"
+                        max="300"
+                        value="60">
+                </span>
+
+            </div>
+
+            <!-- Right Section -->
+            <div class="sort-buttons">
+
+                <button
+                    type="button"
+                    class="btn btn-outline-danger btn-light selectionSort">
+                    Selection Sort
+                </button>
+
+                <button
+                    type="button"
+                    class="btn btn-outline-danger btn-light bubbleSort">
+                    Bubble Sort
+                </button>
+
+                <button
+                    type="button"
+                    class="btn btn-outline-danger btn-light insertionSort">
+                    Insertion Sort
+                </button>
+
+                <button
+                    type="button"
+                    class="btn btn-outline-danger btn-light quickSort">
+                    Quick Sort
+                </button>
+
+                <button
+                    type="button"
+                    class="btn btn-outline-danger btn-light mergeSort">
+                    Merge Sort
+                </button>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+</header>
+
+<!-- Bars Container -->
+<div id="bars" class="flex-container"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="JavaScript_files/sorting.js"></script>
+<script src="JavaScript_files/bubble_sort.js"></script>
+<script src="JavaScript_files/insertion_sort.js"></script>
+<script src="JavaScript_files/merge_sort.js"></script>
+<script src="JavaScript_files/quick_sort.js"></script>
+<script src="JavaScript_files/selection_sort.js"></script>
+
+</body>
+</html>
+
