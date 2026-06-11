@@ -46,31 +46,31 @@ Click **Load Custom Array** to visualize and sort your own data.
 
 ### Main Interface
 
-![Main Interface](images/main_interface.png)
+![Main Interface](img/main_interface.png)
 
 ### Custom Array Input
 
-![Custom Array Input](images/custom-array.png)
+![Custom Array Input](img/custom_array.png)
 
 ### Bubble Sort
 
-![Bubble Sort](images/bubble-sort.png)
+![Bubble Sort](img/bubble_sort.png)
 
 ### Selection Sort
 
-![Selection Sort](images/selection-sort.png)
+![Selection Sort](img/selection_sort.png)
 
 ### Insertion Sort
 
-![Insertion Sort](images/insertion-sort.png)
+![Insertion Sort](img/insertion_sort.png)
 
 ### Quick Sort
 
-![Quick Sort](images/quick-sort.png)
+![Quick Sort](img/quick_sort.png)
 
 ### Merge Sort
 
-![Merge Sort](images/merge-sort.png)
+![Merge Sort](img/merge_sort.png)
 
 ## Future Enhancements
 
